@@ -4,7 +4,8 @@
   "main": "igs.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon igs.js"
+    "dev": "nodemon igs.js",
+    "start": "node igs.js"
   },
   "keywords": [],
   "author": "",
