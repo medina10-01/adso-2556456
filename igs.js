@@ -34,6 +34,10 @@ igs.get('/documents', (req,res) => {
 
 igs.use(express.json()); 
 
+igs.use('/',(req,res)=>{
+    res.render('oki')
+})
+
 igs.use('/facturamovimiento',facturaMovimientoRoute);
 
 igs.use('/producto',productoRouter);
